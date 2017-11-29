@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Piñas Cake';
+  a = 4;
+  b = 5;
+  listo = false;
+
+  contructor(){
+  	setTimeout(() => {
+  		this.listo = true;
+  	}, 3000)
+  }
 }
