@@ -1,3 +1,43 @@
-<p>
-  contacto works!
-</p>
+
+<agm-map [latitude]="lat" [longitude]="lng">
+  <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+</agm-map>
+
+<section>
+	<h1 class="center titulo" style="">{{ title }}</h1>
+	<div class="row">
+		<div class="col s12 m6 l6 ">
+			<div class="col s12 m10 offset-m1 s1" >
+				<p class="" style="padding-top:20%;">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
+			</div>
+			
+		</div>
+		<div class="col s12 m5 l5">
+		<div class="card">
+			<div class="row" style="padding-top: 3%">
+			    <form class="col s12 m12 l12">
+			      <div class="row">
+			        <div class="input-field col s12 m12 l12">
+			          <input id="last_name" type="text" class="validate">
+			          <label for="last_name">Nombre</label>
+			        </div>
+			        <div class="input-field col s12">
+			          <input id="email" type="email" class="validate">
+			          <label for="email">Email</label>
+			        </div>
+			        <div class="input-field col s12 m12 l12">
+			          <input id="last_name" type="text" class="validate">
+			          <label for="last_name">Motivo</label>
+			        </div>
+			        <div class="input-field col s12">
+			          <textarea id="textarea1" class="materialize-textarea"></textarea>
+			          <label for="textarea1">Comentario</label>
+			        </div>
+			      </div>
+			    </form>
+  			</div>
+		</div>
+						
+		</div>
+	</div>
+</section>
