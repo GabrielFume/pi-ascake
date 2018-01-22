@@ -9,6 +9,11 @@ agm-map {
  font-size: 50.0px;
 }
 
+.titulo{
+ font-family: 'Indie Flower', cursive;
+ font-size: 50.0px;
+}
+
 .menu a{
 	font-size:18px;
 }

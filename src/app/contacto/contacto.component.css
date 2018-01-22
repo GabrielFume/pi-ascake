@@ -1,0 +1,10 @@
+.Video2
+    {
+     position:absolute;
+     top: 50px;
+     left:0px;        
+     width:10px;       
+     border:2px solid blue;
+     display:block;
+     z-index:99;
+     }

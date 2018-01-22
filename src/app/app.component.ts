@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+declare var jQuery:any;
+declare var $:any;
 
 @Component({
   selector: 'app-root',
@@ -15,5 +17,13 @@ export class AppComponent {
   	setTimeout(() => {
   		this.listo = true;
   	}, 3000)
+
+    
+  }
+
+  ngOnInit() {
+
+     $(".button-collapse").sideNav();  
+     
   }
 }
